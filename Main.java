@@ -118,9 +118,10 @@ public class Main {
                         }
                         break;
                     case 5:
-                        System.out.println("<Vendedor>");
+                        System.out.println("<?xml version=\"1.0\" encoding=\"UTF-8\"?>");
+                        System.out.println("<Vendedores>");
                         Vendedor.printVendedor();
-                        System.out.println("</Vendedor>");
+                        System.out.println("</Vendedores>");
                         break;
                     default:
                         System.out.println("Opción inválida. Intenta de nuevo.");

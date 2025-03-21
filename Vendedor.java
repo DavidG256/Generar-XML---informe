@@ -91,17 +91,15 @@ class Vendedor {
 
 
     public static void printVendedor() {
-        System.out.println("Lista de vendedores:");
         if (vendedores.isEmpty()) {
             System.out.println("No hay vendedores registrados.");
             return;
         }
-        int contador = 1;
         for (Vendedor v : vendedores) {
-            System.out.println(contador + ". " + v);
-            contador++;
+            System.out.println(v);
         }
     }
+
 
 
     @Override
